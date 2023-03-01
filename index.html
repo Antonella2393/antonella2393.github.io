@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="icono/fonts.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Paprika&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Curriculum vitae</title>
+    
+</head>
+<body>
+  
+
+  <section class="contenido">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-md-auto gap-2">
+              <li class="nav-item rounded">
+                <a class="nav-link active" aria-current="page" href="#" onclick="presentacion();"><i class="bi bi-house-fill me-2"></i>Presentacion</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="#c-contacto" onclick="mostrarContacto();"><i class="bi bi-people-fill me-2"></i>Contacto</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="#c-expl" onclick="mostrarExperiencia();"><i class="bi bi-people-fill me-2"></i>Experiencia</a>
+              </li>
+              <li class="nav-item rounded">
+                <a class="nav-link" href="#c-estudio" onclick="mostrarEstudios();"><i class="bi bi-people-fill me-2"></i>Estudios</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+
+    <div class="card" id="card-photo">
+        <div class="row g-1">
+          <div class="col-md-3">
+            <!-- <img id="foto-principal" class="img-fluid" src="img/persona.jpg" alt="imagen de usuario del curriculum vitae" style="height: 80%;"> -->
+            <img id="avatar" class="img-fluid" src="https://randomuser.me/api/portraits/med/women/6.jpg" alt="imagen de usuario del curriculum vitae"  />
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h4 class="card-title">Presentacion</h4>
+              <p id="nombre" class="presentacion"></p>
+              <p id="apellido" class="presentacion" ></p>
+              <p id="nacionalidad" class="presentacion"></p>
+              <p id="edad" class="presentacion"></p>
+              <p class="card-text">Soy un analista de sistemas orientado a los resultados con excelentes habilidades de comunicación, así como una gran comprensión de los sistemas digitales y los procesos de la cadena de suministro</p>
+              <p class="card-text"><small class="text-muted"></small></p>
+            </div>
+          </div>
+        
+      </div>
+
+    </div>
+</div>
+
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12 col-xs-12">
+
+  <div class="card" id="card-c">
+      <div class="row g-1">
+        <div class="col-md-9">
+          <div class="card-body2">
+            <h4 class="card-contacto" id="c-contacto">Datos de contacto</h4>
+            <p id="email"></p>
+            <p id="telefono"></p>
+            <p id="celular"></p>
+            <p id="linkedin"></p>
+          </div>
+        </div>
+      
+      </div>
+
+</div>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12 col-xs-12">
+
+  <div class="card" id="card-experiencia">
+      <div class="row g-1">
+        <div class="col-md-9">
+          <div class="card-body2">
+            <h4 class="card-expL" id="c-expl">Experiencia laboral</h4>
+            <h5 >Analista de Sistemas</h5>
+
+             <p> Reja Sistemas | Junio 2018 - Actualidad</p>
+              
+              <p>- Estudio los sistemas organizativos de los clientes</p>
+              <p>- Traduzco los requisitos de la empresa en diseños funcionales </p>
+              <p>-Formo al personal y a los usuarios en programas de ordenador</p>
+              
+              <h5>Analista de datos sénior</h5>
+              
+              <p>Estudio Luna | Abril 2017 Mayo 2018</p>
+              
+              <p>- Recopilé y analicé datos con diversos marcos</p>
+              
+              <p>- Solucioné problemas de software</p>
+              
+              <p>- Apliqué técnicas estadísticas para diagnosticar problemas empresariales</p>
+          </div>
+        </div>
+      
+    </div>
+
+
+</div>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12 col-xs-12">
+
+  <div class="card" id="card-est">
+      <div class="row g-1">
+        <div class="col-md-9">
+          <div class="card-body2">
+            <h4 class="card-estudios" id="c-estudio">Estudios Cursados</h4>
+            <h5>Instituto de las Torres</h5>
+             <h6>Certificado de posgrado | Febrero 2018- Enero 2019 </h6>
+             <p>- Certificado en Ingeniería de Procesos Empresariales
+              <p>- Adquisición de conocimientos sobre la optimización de sistemas y procesos de negocio con sistemas tecnológicos</p>
+              <h5> Universidad de Torres</h5>
+              <h6>Grado en Ciencias | Junio 2011 - Junio 2015</h6>
+              <p>Grado en Ingeniería Informática</p>
+              <p>- Mención en Sistemas Empresariales</p>
+              <p>- Coordinador de Proyectos, Instituto Técnico La Tecla</p>
+              <p>- Beca de la Fundación Pilar Mancha</p>
+          </div>
+        </div>
+      
+    </div>
+
+
+</div>
+</div>
+          </div>
+        </div>
+      </section>
+       
+
+<script  src="js/curriculum.js"></script>
+</body>
+</html>
+

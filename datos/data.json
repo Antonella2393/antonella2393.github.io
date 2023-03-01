@@ -1,0 +1,45 @@
+{
+    "jsonData": 
+      {
+        "nombre": "Catalina",
+        "apellido": "Martinez",
+        "genero": "Femenino",
+        "direccion": {
+          "calle": {
+            "numero": 8929,
+            "nombre": "Valwood Pkwy"
+          },
+          "ciudad": "Billings",
+          "estado": "Michigan",
+          "pais": "United States",
+          "codigoPostal": "63104"
+        },
+        "email": "jennie.nichols@example.com",
+        "fnacimiento": {
+          "fecha": "1992-03-08T15:13:16.688Z",
+          "edad": 30
+        },
+       
+        "telefono": "(272) 790-0888",
+        "celular": "(489) 330-2385",
+
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/75.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+        },
+      "info": {
+        "seed": "56d27f4a53bd5441",
+        "results": 1,
+        "page": 1,
+        "version": "1.4",
+        "estudios":{
+          "universidad1":"University of Pinkston MFA in Digital Media Arts, Class of 2008",
+         "univeridad2": "University of Pinkston MFA in Digital Media Arts, Class of 2008",
+          "universidad3":"University of Pinkston MFA in Digital Media Arts, Class of 2008",
+          "universidad4":"University of Pinkston MFA in Digital Media Arts, Class of 2008"
+        } 
+     }
+    }
+
+  }
